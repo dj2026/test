@@ -1,7 +1,5 @@
-@font-face {
-    font-family: 'Righteous';
-    src: url("src/Righteous-Regular.woff")
-}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 
 *,*::after,*::before{
     margin: 0;
@@ -18,7 +16,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(212, 212, 212);
-    font-family: 'Righteous';
+    font-family: 'Righteous', cursive;
 }
 
 .header{
@@ -132,7 +130,7 @@ a {
         flex-wrap: wrap;
         justify-content: center;
         background-color: rgb(212, 212, 212);
-        font-family: 'Righteous';
+        font-family: 'Righteous', cursive;
     }
     
     .header{
