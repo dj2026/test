@@ -1,14 +1,12 @@
 @font-face {
     font-family: 'Righteous';
-    src: url("/src/Righteous-Regular.woff")
+    src: url("src/Righteous-Regular.woff")
 }
 
 *,*::after,*::before{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Righteous', cursive;
-   
+    box-sizing: border-box; 
 } 
 
 @media screen and (min-width:576px){
@@ -20,6 +18,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(212, 212, 212);
+    font-family: 'Righteous';
 }
 
 .header{
@@ -133,6 +132,7 @@ a {
         flex-wrap: wrap;
         justify-content: center;
         background-color: rgb(212, 212, 212);
+        font-family: 'Righteous';
     }
     
     .header{
